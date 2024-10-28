@@ -1,0 +1,98 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "9860cd84f4518285a95eeaf44b5304b5",
+    "entities": [
+      {
+        "tableName": "aves_data",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uid` TEXT, `name` TEXT, `map` TEXT, `iucn` TEXT, `habitat` TEXT, `didyouknow` TEXT, `migration` INTEGER, `dimorphism` INTEGER, `size` TEXT, `order` TEXT, `species` TEXT, `images` TEXT, `audio` TEXT, `Links` TEXT, `sort` INTEGER)",
+        "fields": [
+          {
+            "fieldPath": "uid",
+            "columnName": "uid",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "map",
+            "columnName": "map",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "iucn",
+            "columnName": "iucn",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "habitat",
+            "columnName": "habitat",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "didyouknow",
+            "columnName": "didyouknow",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "migration",
+            "columnName": "migration",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "dimorphism",
+            "columnName": "dimorphism",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "size",
+            "columnName": "size",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "order",
+            "columnName": "order",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "species",
+            "columnName": "species",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "images",
+            "columnName": "images",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "audio",
+            "columnName": "audio",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "Links",
+            "columnName": "Links",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "sort",
+            "columnName": "sort",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": []
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9860cd84f4518285a95eeaf44b5304b5')"
+    ]
+  }
+}
