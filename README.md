@@ -38,6 +38,8 @@ It has been used with the official documentation: "https://www.jetbrains.com/hel
 
 <img width="1248" alt="Captura de pantalla 2024-10-27 a la(s) 23 00 19" src="https://github.com/user-attachments/assets/d8898764-6ba6-4b53-bb4b-7351359952cc">
 <img width="355" alt="Captura de pantalla 2024-10-27 a la(s) 23 02 20" src="https://github.com/user-attachments/assets/a4a5e671-a0df-4b97-88f4-8f533d5b3ae3"> 
+<img width="469" alt="Captura de pantalla 2024-12-16 a la(s) 18 19 41" src="https://github.com/user-attachments/assets/332faf8a-8f52-42d7-8eaf-ec97942e554e" />
+
 
 
 
